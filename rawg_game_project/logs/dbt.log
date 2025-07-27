@@ -1,0 +1,86 @@
+[0m22:29:18.370574 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022056AC41A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022058B57ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022058B57B10>]}
+
+
+============================== 22:29:18.379690 | 952023b3-ba32-4837-ad79-90aafdd46229 ==============================
+[0m22:29:18.379690 [info ] [MainThread]: Running with dbt=1.10.5
+[0m22:29:18.380277 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\cared\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init rawg_dbt_project', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m22:29:18.405334 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\cared\.dbt
+[0m22:29:18.407291 [debug] [MainThread]: Starter project path: C:\Users\cared\python_projects\rawg_game_project\rawg_venv\Lib\site-packages\dbt\include\starter_project
+[0m22:29:18.428489 [info ] [MainThread]: 
+Your new dbt project "rawg_dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:29:18.429293 [info ] [MainThread]: Setting up your profile.
+[0m22:29:52.400840 [info ] [MainThread]: Profile rawg_dbt_project written to C:\Users\cared\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m22:29:52.402156 [debug] [MainThread]: Command `dbt init` succeeded at 22:29:52.402020 after 34.11 seconds
+[0m22:29:52.402453 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022058BEA780>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022058D10B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022058D1C490>]}
+[0m22:29:52.402775 [debug] [MainThread]: Flushing usage events
+[0m22:29:53.122087 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:36:53.738088 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000248725D01A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024873697ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024873697B10>]}
+
+
+============================== 22:36:53.746908 | 94206f65-7255-4e37-a4ee-ab75abe086e4 ==============================
+[0m22:36:53.746908 [info ] [MainThread]: Running with dbt=1.10.5
+[0m22:36:53.747489 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\cared\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m22:36:53.776326 [info ] [MainThread]: dbt version: 1.10.5
+[0m22:36:53.777015 [info ] [MainThread]: python version: 3.13.5
+[0m22:36:53.777419 [info ] [MainThread]: python path: C:\Users\cared\python_projects\rawg_game_project\rawg_venv\Scripts\python.exe
+[0m22:36:53.777804 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m22:36:53.879529 [info ] [MainThread]: Using profiles dir at C:\Users\cared\.dbt
+[0m22:36:53.880025 [info ] [MainThread]: Using profiles.yml file at C:\Users\cared\.dbt\profiles.yml
+[0m22:36:53.880399 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\cared\python_projects\rawg_game_project\dbt_project.yml
+[0m22:36:53.882766 [info ] [MainThread]: adapter type: duckdb
+[0m22:36:53.883125 [info ] [MainThread]: adapter version: 1.9.4
+[0m22:36:53.883505 [info ] [MainThread]: Configuration:
+[0m22:36:53.883849 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m22:36:53.884210 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m22:36:53.884575 [info ] [MainThread]: Required dependencies:
+[0m22:36:53.884966 [debug] [MainThread]: Executing "git --help"
+[0m22:36:53.918379 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:36:53.918776 [debug] [MainThread]: STDERR: "b''"
+[0m22:36:53.919056 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:36:53.919557 [info ] [MainThread]: Connection:
+[0m22:36:53.919976 [info ] [MainThread]:   database: rawg_data
+[0m22:36:53.920427 [info ] [MainThread]:   schema: main
+[0m22:36:53.920791 [info ] [MainThread]:   path: C:\Users\cared\python_projects\rawg_game_project\rawg_data.duckdb
+[0m22:36:53.921192 [info ] [MainThread]:   config_options: None
+[0m22:36:53.921564 [info ] [MainThread]:   extensions: None
+[0m22:36:53.921925 [info ] [MainThread]:   settings: {}
+[0m22:36:53.922312 [info ] [MainThread]:   external_root: .
+[0m22:36:53.922684 [info ] [MainThread]:   use_credential_provider: None
+[0m22:36:53.923026 [info ] [MainThread]:   attach: None
+[0m22:36:53.923396 [info ] [MainThread]:   filesystems: None
+[0m22:36:53.923758 [info ] [MainThread]:   remote: None
+[0m22:36:53.924089 [info ] [MainThread]:   plugins: None
+[0m22:36:53.924436 [info ] [MainThread]:   disable_transactions: False
+[0m22:36:53.925022 [info ] [MainThread]: Registered adapter: duckdb=1.9.4
+[0m22:36:54.261554 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m22:36:55.941888 [debug] [MainThread]: Using duckdb connection "debug"
+[0m22:36:55.942284 [debug] [MainThread]: On debug: select 1 as id
+[0m22:36:55.942574 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m22:36:56.079393 [debug] [MainThread]: SQL status: OK in 0.137 seconds
+[0m22:36:56.080290 [debug] [MainThread]: On debug: Close
+[0m22:36:56.080856 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m22:36:56.081288 [info ] [MainThread]: [31m1 check failed:[0m
+[0m22:36:56.081659 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\cared\python_projects\rawg_game_project\dbt_project.yml> not found
+
+[0m22:36:56.082783 [debug] [MainThread]: Command `dbt debug` failed at 22:36:56.082691 after 2.44 seconds
+[0m22:36:56.083032 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m22:36:56.083284 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000248748CA060>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024874965910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002487487CAF0>]}
+[0m22:36:56.083587 [debug] [MainThread]: Flushing usage events
+[0m22:36:56.386871 [debug] [MainThread]: An error was encountered while trying to flush usage events
