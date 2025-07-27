@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: rawg
+    database: ""
+    schema: main
+    tables:
+      - name: games_raw
+        description: "Raw game data pulled from the RAWG API."
