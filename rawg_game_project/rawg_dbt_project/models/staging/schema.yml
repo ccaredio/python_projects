@@ -10,4 +10,59 @@ models:
         data_tests:
           - unique
           - not_null
+  - name: stg_genres
+    description: "Staging table to grab all the genres each game maps to."
+    columns:
+      - name: game_id
+        description: "Unique game id for each game."
+        data_tests:
+          - not_null
+      - name: genre_id
+        description: "Unique genre id for each genre."
+        data_tests:
+          - not_null
+  - name: stg_platforms
+    description: "Staging table to grab all the parent platforms for each game."
+    columns:
+      - name: game_id
+        description: "Unique game id for each game."
+        data_tests:
+          - not_null
+      - name: platform_id
+        description: "Unique platform id for each platform."
+        data_tests:
+          - not_null
+  - name: stg_stores
+    description: "Staging table to grab all the stores each game is available at."
+    columns:
+      - name: game_id
+        description: "Unique game id for each game."
+        data_tests:
+          - not_null
+      - name: store_id
+        description: "Unique store id for each store."
+        data_tests:
+          - not_null
+  - name: stg_tags
+    description: "Staging table to grab all the tags for each game."
+    columns:
+      - name: game_id
+        description: "Unique game id for each game."
+        data_tests:
+          - not_null
+      - name: tag_id
+        description: "Unique tag id for each tag."
+        data_tests:
+          - not_null
+  - name: stg_ratings
+    description: "Staging table to grab all the ratings each game maps to."
+    columns:
+      - name: game_id
+        description: "Unique game id for each game."
+        data_tests:
+          - not_null
+      - name: rating_id
+        description: "Unique rating id for each rating."
+        data_tests:
+          - not_null
 

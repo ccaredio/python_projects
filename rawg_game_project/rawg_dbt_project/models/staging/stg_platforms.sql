@@ -6,7 +6,7 @@ select
     platform.platform.slug as platform_slug
 from
     {{ source('rawg', 'games_raw') }} raw,
-    unnest(raw.platforms) as p(platform)
+    unnest(raw.parent_platforms) as p(platform)
 )
 
 select
