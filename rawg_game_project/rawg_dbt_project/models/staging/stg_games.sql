@@ -1,19 +1,18 @@
 with final as (
 select
-    id,
-    name,
+    id as game_id,
+    name as game_name,
     released,
     rating,
-    metacritic,
+    metacritic as metacritic_rating,
     playtime,
     background_image,
     rating_top,
     ratings_count,
     reviews_text_count,
-    added,
-    metacritic,
+    cast(added as integer) as added,
     suggestions_count,
-    updated,
+    updated as updated_at,
     score,
     clip,
     user_game,
@@ -28,3 +27,4 @@ select
 from
     final
     
+
